@@ -1,0 +1,10 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "ES5", // ciblé la version du JS
+    "module": "CommonJS", // module utiliser         
+    // "noEmitOnError": true, // ne va le compiler le TS quand il y a une erreur
+    "strict": true, // verification de type strict
+    "noImplicitAny": true // on ne veut aucune variable de type "any"
+  }
+}
